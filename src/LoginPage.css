@@ -1,0 +1,13 @@
+
+.loginpage{
+    margin: 50px;
+  }
+  
+  .bottom{
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .bottom button, .bottom div{
+    margin-right : 10px;
+  }
