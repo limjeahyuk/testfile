@@ -10,7 +10,7 @@ const JungPage = () => {
 
     const back = () => {
         try{
-            window.webkit?.messageHandlers.callbackHandler.postMessage(true);
+            window.webkit?.messageHandlers.back.postMessage(true);
         }catch(err){
             alert(err)
         }
@@ -18,7 +18,7 @@ const JungPage = () => {
 
     const outLink = (link) => {
         try{
-            window.webkit?.messageHandlers.callbackHandler.postMessage(link);
+            window.webkit?.messageHandlers.outLink.postMessage(link);
         }catch(err){
             alert(err)
         }
