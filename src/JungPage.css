@@ -1,0 +1,12 @@
+.jung{
+    margin: 50px;
+}
+
+.jung form {
+    margin: 20px 0;
+
+}
+
+.jung>div>button{
+    margin-right: 10px;
+}

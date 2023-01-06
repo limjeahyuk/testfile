@@ -25,7 +25,7 @@ const JungPage = () => {
     }
 
 
-    return <>
+    return <div className="jung">
         <h2>은정님 페이지</h2>
 
         <form>
@@ -37,7 +37,7 @@ const JungPage = () => {
             <button onClick={outLink('https://www.cashmore.avatye.com/')}>캐시모아</button>
             <button onClick={outLink('https://www.naver.com/')}>네이버</button>
         </div>
-    </>
+    </div>
 }
 
 export default JungPage

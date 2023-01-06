@@ -6,8 +6,15 @@
   .bottom{
     display: flex;
     margin-top: 20px;
+    align-items: center;
   }
   
   .bottom button, .bottom div{
     margin-right : 10px;
   }
+
+  .bottom .icon {
+    margin-right: 10px;
+  }
+
+  

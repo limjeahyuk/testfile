@@ -21,10 +21,10 @@ const loginpage = () => {
           <div><input type="password" /></div>
         </div>
         <div className='bottom'>
-          <button><AcUnitIcon /></button>
-          <Link to="/more"><CookieIcon /></Link>
-        <Link to="/jung"><Face4Icon/></Link>
-          <button><FaceIcon /></button>
+            <button><AcUnitIcon /></button>
+            <Link to="/more" className="icon"><CookieIcon /></Link>
+            <Link to="/jung" className="icon"><Face4Icon/></Link>
+            <button><FaceIcon /></button>
         </div>
 
       </div>
